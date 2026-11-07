@@ -1,0 +1,10 @@
+signal_id,country,register_id,quality_row_id,legal_name,signal_for,signal_type,signal_date,signal_strength,signal_expires,signal_source_type,signal_evidence,signal_detail,signal_validated
+s00001,XX,0012345678,,Sunfield Bakery Ltd,customer,expansion,2026-09-22,strong,2027-03-22,register,"Examplia register branches file, pulled 2026-11-05",second site registered in Riverton,validated
+s00002,XX,0023456789,,Valley Creamery Ltd,customer_before_start,new_leader,2023-02-10,strong,2023-08-10,register,"Examplia register officers file, pulled 2026-11-05",managing director appointed 2023-02-10; customer from 2023-06-01,validated
+s00003,XX,0034567812,,Orvale Dairy Ltd,prospect,new_leader,2026-09-03,strong,2027-03-03,register,"Examplia register officers file, pulled 2026-11-05",managing director appointed 2026-09-03,validated
+s00004,XX,0045678123,,Kestmoor Bakehouse Ltd,prospect,hiring,2026-10-14,strong,2027-01-14,job_post,https://kestmoor.example/careers/production-planner,"production planner post, dated 2026-10-14",unvalidated
+s00005,XX,0045678123,,Kestmoor Bakehouse Ltd,prospect,staff_growth,2025-12-31,medium,2027-06-30,accounts,"Examplia accounts filing, 2025 accounts, pulled 2026-11-05",average staff 21 → 27 (2024 → 2025); fresh until the 2026 accounts are due (2027-06-30),validated
+s00006,XX,0056781234,,Pellbrook Meats Ltd,prospect,staff_growth,2025-12-31,medium,2027-06-30,accounts,"Examplia accounts filing, 2025 accounts, pulled 2026-11-05",average staff 44 → 55 (2024 → 2025); fresh until the 2026 accounts are due (2027-06-30),validated
+s00007,XX,0067812345,,Tamsel Foods Ltd,prospect,expansion,2026-08-11,strong,2027-02-11,news,https://tamselfoods.example/news/new-site,new production site in Eastmoor announced 2026-08-11,validated
+s00008,XX,0067812345,,Tamsel Foods Ltd,prospect,funding,2026-07-20,weak,2027-01-20,register,"Examplia register capital changes, pulled 2026-11-05",share capital increased 2026-07-20,thin
+s00009,XX,0078123456,,Wrenfold Mills Ltd,prospect,new_leader,2026-10-01,strong,2027-04-01,register,"Examplia register officers file, pulled 2026-11-05",managing director appointed 2026-10-01,validated

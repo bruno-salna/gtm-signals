@@ -62,7 +62,7 @@ Some sites block automated reading (job boards, registers behind a captcha, payw
 ## Part of a series
 This is the fourth of five guides that chain together through a [shared row schema](schema.md):
 
-[Market map](https://github.com/bruno-salna/gtm-market-map) → [List quality](https://github.com/bruno-salna/gtm-list-quality) → [ICP + tiering](https://github.com/bruno-salna/gtm-icp-tiering) → **Signals** → Orchestrator
+[Market map](https://github.com/bruno-salna/gtm-market-map) → [List quality](https://github.com/bruno-salna/gtm-list-quality) → [ICP + tiering](https://github.com/bruno-salna/gtm-icp-tiering) → **Signals** → [Orchestrator](https://github.com/bruno-salna/gtm-orchestrator)
 
 Each guide works on its own. Used together, each one picks up the previous one's output. ICP + tiering answers *who fits*. This guide answers *who is ready now*.
 

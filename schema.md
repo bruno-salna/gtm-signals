@@ -126,7 +126,7 @@ Lists that didn't come from the Market map can leave `in_market`, `excluded_by` 
 | `country`, `register_id`, `quality_row_id` | text | Which company the signal belongs to, as on the list |
 | `legal_name` | text | As on the list, for reading convenience |
 | `signal_for` | text | `prospect`, `customer` (a current customer: an expansion cue), or `customer_before_start` (found before the customer started, for the step 5 test) |
-| `signal_type` | text | `new_leader`, `staff_growth`, `hiring`, `funding`, `expansion`, or `custom_<name>` (outside this guide) |
+| `signal_type` | text | `new_leader`, `staff_growth`, `hiring`, `funding`, `expansion`, or `custom_<name>` (outside this guide). `staff_growth` means headcount over time; growth read from revenue is `custom_revenue_growth` |
 | `signal_date` | date | Event date, `YYYY-MM-DD`. If only the month is known, the first of the month, noted in `signal_detail`. |
 | `signal_strength` | text | `strong`, `medium` or `weak`, as agreed in steps 2 and 5 |
 | `signal_expires` | date | `signal_date` plus the freshness agreed in step 2 |
@@ -144,5 +144,5 @@ Input columns that don't map to the schema are kept at the end of the file, with
 | List quality | `quality_` | see above |
 | ICP + tiering | `icp_`, `tier` | see above |
 | Signals | `signal_` | see above |
-| Orchestrator | `run_` | `run_id`, `run_step` |
+| Orchestrator | `run_` | `run_id`, `run_step`; full list in its [schema](https://github.com/bruno-salna/gtm-orchestrator/blob/main/schema.md) |
 | (input columns) | `src_` | kept as they came, see above |
